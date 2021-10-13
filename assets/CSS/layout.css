@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+    transition: .6s;
+}
+
+/*  ====> HEADER <===== */
+header{
+    background-color: rgb(7, 151, 187);
+    padding: 1.5rem 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1 a{
+    font-size: 3.5rem;
+    color: #fff;
+    font-family: 'Cabin Sketch', cursive;
+}
+
+h1 a:hover, nav ul li a:hover{
+    color: rgb(133, 228, 245);
+}
+
+nav ul li a{
+    font-size: 2rem;
+    color: #fff;
+}
+
+/* ======> HOME <======= */
+.main-content{
+    margin: 0 auto;
+    margin-top: 3rem;
+    max-width: 800px;
+    text-align: center;
+}
+
+#msg{
+    font-size: 1.8rem;
+    padding: 2rem;
+    min-width: 650px;
+    text-align: center;
+    border-radius: 1rem;
+    color: #fff;
+    /* background: #e95050; */
+    /* background: #59cbb4; */
+}
+
+.main-content h2{
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 4.5rem;
+    margin-top: 3rem;
+}
+
+
+th{
+    font-size: 1.8rem;
+}
+
+td{
+    font-size: 1.8rem;
+}
+
+/* ======> FOOTER <===== */
+footer{
+    background-color: rgb(1, 20, 20);
+    padding: 3rem;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+footer h2{
+    color: #fff;
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 2.3rem;
+}
