@@ -9,13 +9,24 @@
     text-decoration: none;
     font-size: 62.5%;
     font-family: 'Roboto', sans-serif;
+    outline: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
 }
 
 *:hover{
-    transition: .6s;
+    transition: .8s;
 }
 
-.no-contacts a:hover, .actions a:hover{
+.no-contacts a:hover, .actions a:hover, .submit-btn:hover{
     opacity: .6;
 }
 
@@ -63,7 +74,7 @@ main{
     border-radius: 1rem;
     color: #fff;
     /* background: #e95050; */
-    /* background: #59cbb4; */
+    background: #59cbb4;
 }
 
 .main-content h2{
@@ -121,6 +132,52 @@ i{
 
 .delete{
     color: rgb(236, 62, 62);
+}
+
+/* ====> Create Form <==== */
+#create-container{
+    max-width: 500px;
+    margin-bottom: 5rem;
+}
+
+.input{
+    background-color: #fff;
+    border: 2px solid gray;
+    border-radius: .8rem;
+    display: flex;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+.input input{
+    border: 0;
+    font-size: 1.8rem;
+    width: 92%;
+}
+
+.icon{
+    padding-left: 15px;
+}
+
+textarea{
+    min-width: 500px;
+    font-size: 1.8rem;
+    margin-bottom: 2.5rem;
+    padding: 1rem;
+    resize: none;
+    border-radius: .8rem;
+    border: 2px solid gray;
+}
+
+.submit-btn{
+    font-size: 1.8rem;
+    background-color: #0c84d4;
+    color: #fff;
+    border: 0;
+    border-radius: .8rem;
+    width: 100%;
+    padding: 1rem 0;
+    cursor: pointer;
 }
 
 /* ======> FOOTER <===== */
