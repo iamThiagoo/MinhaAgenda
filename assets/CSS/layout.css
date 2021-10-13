@@ -9,6 +9,9 @@
     text-decoration: none;
     font-size: 62.5%;
     font-family: 'Roboto', sans-serif;
+}
+
+*:hover{
     transition: .6s;
 }
 
@@ -58,16 +61,54 @@ nav ul li a{
 .main-content h2{
     font-family: 'Cabin Sketch', cursive;
     font-size: 4.5rem;
-    margin-top: 3rem;
+    margin: 6rem 0 3rem 0;
 }
 
+/* ====> Contacts TABLE <==== */
+table{
+    min-width: 800px;
+    border-collapse: collapse;
+    text-align: center;
+}
 
 th{
+    background-color: #0797bb;
+    color: #fff;
+    border: 1px solid #0797bb;
+}
+
+th, td{
     font-size: 1.8rem;
+    padding: 1rem;
 }
 
 td{
-    font-size: 1.8rem;
+    border: 1px solid #92cfdf;
+    border-top: 0;
+}
+
+.actions a{
+    margin-right: 1rem;
+}
+
+.actions a:hover{
+    opacity: .6;
+}
+
+i{
+    font-size: 2rem;
+}
+
+.eye{
+    color: rgb(28, 126, 218);
+}
+
+.edit{
+    color: rgb(14, 182, 8);
+}
+
+.delete{
+    color: rgb(236, 62, 62);
 }
 
 /* ======> FOOTER <===== */
