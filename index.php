@@ -34,7 +34,10 @@
                 </tbody>
             </table>
         <?php else: ?>
-            <p>Ainda não há contato em sua agenda! <a href="#">Clique aqui para adicionar</a></p>
+            <div class="no-contacts">
+                <p>Ainda não há contato em sua agenda!</p>
+                <a href="#">Comece adicionando aqui</a>
+            </div>
         <?php endif; ?>
     </div>
 </main>
