@@ -26,8 +26,16 @@ input[type=number] {
     transition: .8s;
 }
 
-.no-contacts a:hover, .actions a:hover, .submit-btn:hover{
+.no-contacts a:hover, .actions a:hover, button:hover ,.submit-btn:hover{
     opacity: .6;
+}
+
+.sr-only{
+    height: 1px;
+    width: 1px;
+    position: absolute;
+    overflow: hidden;
+    clip-path: rect(0,0,0,0);
 }
 
 /*  ====> HEADER <===== */
@@ -47,6 +55,11 @@ h1 a{
 
 h1 a:hover, nav ul li a:hover{
     color: rgb(133, 228, 245);
+}
+
+nav{
+    display: flex;
+    gap: 3rem;
 }
 
 nav ul li a{
@@ -73,7 +86,6 @@ main{
     text-align: center;
     border-radius: 1rem;
     color: #fff;
-    /* background: #e95050; */
     background: #59cbb4;
 }
 
@@ -130,9 +142,62 @@ i{
     color: rgb(14, 182, 8);
 }
 
+button{
+    border: 0;
+    background: none;
+    cursor: pointer;
+    font-size: 1.8rem;
+}
+
 .delete{
     color: rgb(236, 62, 62);
 }
+
+/* ====> Modal Delete <===== */
+.modal-container{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.164);
+    position: fixed;
+    z-index: 1;
+    top: -100%;
+    display: grid;
+    place-items: center;
+    transition: .3s ease;
+    transition-delay: .5s;
+}
+
+.modal-box{
+    background-color: #fff;
+    height: auto;
+    width: 40%;
+    padding: 3rem 2rem;
+    border-radius: 1rem;
+}
+
+.modal-box p{
+    font-size: 1.8rem;
+    margin-bottom: 2.5rem;
+}
+
+.options{
+    display: flex;
+    float: right;
+    margin-right: 1rem;
+}
+
+.options button{
+    margin-right: 1rem;
+    padding: 1rem;
+    border-radius: .5rem;
+}
+
+.delete-btn{
+    background: rgb(212, 20, 20);
+    color: #fff;
+    border: 0;
+}
+
 
 /* ====> Create Form <==== */
 #create-container{

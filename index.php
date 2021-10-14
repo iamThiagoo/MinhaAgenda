@@ -27,7 +27,7 @@
                             <td class="actions">
                                 <a href="#" class="eye"><i class="fas fa-eye"></i></a>
                                 <a href="#" class="edit"><i class="fas fa-edit"></i></a>
-                                <a href="#" class="delete"><i class="fas fa-times"></i></a>
+                                <button class="delete" onclick="openModal()"><i class="fas fa-times"></i></button>
                             </td>
                         </tr>
                     <?php endforeach; ?>
@@ -39,6 +39,17 @@
                 <a href="#">Comece adicionando aqui</a>
             </div>
         <?php endif; ?>
+    </div>
+    <div class="modal-container">
+        <div class="modal-box">
+            <p>Tem certeza que quer deletar essse contato da sua agenda?</p>
+            <div class="options">
+                <button class="no-delete" onclick="closeModal()">Cancelar</button>
+                <form action="" method="post">
+                    <button class="delete-btn" type="submit">Sim, delete</button>
+                </form>
+            </div>
+        </div>
     </div>
 </main>
 <?php

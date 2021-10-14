@@ -1,5 +1,9 @@
-<php
-    include_once("../config/connect.php");
+<?php
+        // include_once("/assets/config/createContacts.php");
+        // if(isset($_SESSION["msg"])){
+        //     $msg = $_SESSION['msg'];
+        //     $_SESSION['msg'] = '';
+        // }
 ?>
 
 <!DOCTYPE html>
@@ -18,8 +22,7 @@
                 <a href="index.php">Minha Agenda</a>
             </h1>   
             <nav>
-                <ul>
-                    <li><a href="create.php">Cadastrar contato</a></li>
-                </ul>
+                <ul><li><a href="index.php">Meus contatos</a></li></ul>
+                <ul><li><a href="create.php">Cadastrar contato</a></li></ul>
             </nav>
         </header>
