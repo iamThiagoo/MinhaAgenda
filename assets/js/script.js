@@ -7,3 +7,7 @@ function openModal(){
 function closeModal(){
     modalContainer.style.top = "-100%";
 }
+
+const phoneInput = document.querySelector("#phone");
+
+$(phoneInput).mask("(000) 00000-0000");
