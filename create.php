@@ -13,7 +13,7 @@
         </div>
         <div class="input">
             <label class="sr-only" for="phone">Digite o telefone do contato</label>
-            <input type="tel" name="phone" id="phone" placeholder="Digite o telefone do contato" required>
+            <input type="text" name="phone" id="phone" placeholder="Digite o telefone do contato" required>
             <div class="icon">
                 <i class="fas fa-phone"></i>
             </div>
