@@ -192,12 +192,15 @@ button{
     border-radius: .5rem;
 }
 
+.no-delete{
+    border: 1px solid gray;
+}
+
 .delete-btn{
-    background: rgb(212, 20, 20);
+    background: #f14040;
     color: #fff;
     border: 0;
 }
-
 
 /* ====> Create Form <==== */
 #create-container{

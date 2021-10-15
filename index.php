@@ -1,6 +1,5 @@
 <?php
     include_once("assets/templates/header.php");
-    include_once("assets/config/contacts.php");
 ?>
 <main>
     <div class="main-content">
@@ -42,7 +41,7 @@
     </div>
     <div class="modal-container">
         <div class="modal-box">
-            <p>Tem certeza que quer deletar essse contato da sua agenda?</p>
+            <p>Tem certeza que deseja deletar esse contato da sua agenda?</p>
             <div class="options">
                 <button class="no-delete" onclick="closeModal()">Cancelar</button>
                 <form action="" method="post">

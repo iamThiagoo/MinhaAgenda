@@ -3,7 +3,7 @@
 ?>
 <main class="main-content" id="create-container">
     <h2>Cadastrar contato</h2>
-    <form action="assets/config/create_contacts.php" method="POST">
+    <form action="assets/config/backend.php" method="POST">
         <div class="input">
             <label class="sr-only" for="name">Digite o nome do contato</label>
             <input type="text" name="name" id="name" maxlength="100" placeholder="Digite o nome do contato" required>

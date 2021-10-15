@@ -1,9 +1,10 @@
 <?php
-        // include_once("/assets/config/createContacts.php");
-        // if(isset($_SESSION["msg"])){
-        //     $msg = $_SESSION['msg'];
-        //     $_SESSION['msg'] = '';
-        // }
+
+    include_once("assets/config/backend.php");
+    if(isset($_SESSION["msg"])){
+        $msg = $_SESSION['msg'];
+        $_SESSION['msg'] = '';
+    }
 ?>
 
 <!DOCTYPE html>
